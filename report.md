@@ -67,3 +67,11 @@ With 2 extra levels of refinement:
 
 We can see that in the case of non-linear Kelvin-Helmholtz instability, extra levels of refinement does pay off to show details otherwise hidden.
 
+# Final Plots
+
+Instead of plotting an image, I made videos at YouTube, one with the AMR grids annotated, one without. Click the image to redirect to YouTube:
+
+[![at $t = 7.6 \text{s}$, with AMR grids annotated.](plots/9-p5-refine-2-9-16/plt13843.png){width=50%}](https://youtu.be/1w6tcsmedWs)
+
+
+[![at $t = 7.6 \text{s}$, with AMR grids annotated.](plots/9-p5-refine-2-9-16/plt13843.png){width=50%}](https://youtu.be/1w6tcsmedWs)
