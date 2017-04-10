@@ -12,10 +12,10 @@ def yt_plt(pltPath, annotate, ext):
     p1 = yt.ProjectionPlot(ds1, "z", "density")
     if annotate:
         p1.annotate_grids()
-    p1.save('.'.join((pltPath, ext)))
+    p1.save('.'.join((pltPath.rstrip(os.sep), ext)))
 
 def main(args):
-    pltPath = args.d
+    pltPath = args.f
     annotate = args.a
     ext = args.t
 
