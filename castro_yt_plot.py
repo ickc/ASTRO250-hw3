@@ -15,24 +15,19 @@ def yt_plt(pltPath, annotate, ext):
     p1.save('.'.join((pltPath, ext)))
 
 def main(args):
-    pltsPath = args.d
+    pltPath = args.d
     annotate = args.a
     ext = args.t
 
-    pltsPath = os.path.expanduser(pltsPath)
-    # get all the directories with name starting as plt
-    # these are the directories of each CASTRO plot output
-    pltDir = [name for name in os.listdir(pltsPath)
-        if (os.path.isdir(os.path.join(pltsPath, name)) and name[:3] == "plt")]
-    for plt in pltDir:
-        yt_plt(os.path.join(pltsPath, plt), annotate, ext)
+    pltPath = os.path.expanduser(pltPath)
+    yt_plt(pltPath, annotate, ext)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.set_defaults(func=main)
     # Args
-    parser.add_argument('-d',
-                        help='The input directory of the plots. Expects directories of name "plt..." within this directory.')
+    parser.add_argument('-f',
+                        help='The input directory of a single plot.')
     parser.add_argument('-a',
                         action='store_true',
                         help='Annotate the grids.')
