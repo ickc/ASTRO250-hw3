@@ -57,7 +57,7 @@ So in the end, the plot with 2 extra level of AMR refinement and `dengrad = 0.1;
 
 # Problem 5 — Non-Linear Kelvin-Helmholtz Instability
 
-Without any refinement, with `dengrad = 0.1; velgrad = 1.0`
+Without any refinement, with `dengrad = 0.1; velgrad = 1.0` at $t = 2.7\text{s}$:
 
 ![Problem 5 — no refinement, at $t = 2.7\text{s}$](plots/6-p5-refine-0/plt04654.pdf){width=50%}
 
@@ -71,7 +71,6 @@ We can see that in the case of non-linear Kelvin-Helmholtz instability, extra le
 
 Instead of plotting an image, I made videos at YouTube, one with the AMR grids annotated, one without. Click the image to redirect to YouTube:
 
-[![at $t = 7.6 \text{s}$, with AMR grids annotated.](plots/9-p5-refine-2-9-16/plt13843.png){width=50%}](https://youtu.be/1w6tcsmedWs)
+[![at $t = 7.6 \text{s}$, with AMR grids annotated.](plots/9-p5-refine-2-9-16/plt13843.png)](https://youtu.be/1w6tcsmedWs)
 
-
-[![at $t = 7.6 \text{s}$, with AMR grids annotated.](plots/9-p5-refine-2-9-16/plt13843.png){width=50%}](https://youtu.be/1w6tcsmedWs)
+[![at $t = 7.6 \text{s}$, without AMR grids annotated.](plots/10-p5-refine-2-9-16-no-grid/plt13843.png)](https://youtu.be/xweAiSQZ4aU)
