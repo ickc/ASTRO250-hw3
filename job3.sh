@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #SBATCH -N 1
 #SBATCH -C haswell
-#SBATCH -p debug
+#SBATCH -q debug
 #SBATCH -J Castro-KH-problem-3
 #SBATCH -t 00:10:00
 
